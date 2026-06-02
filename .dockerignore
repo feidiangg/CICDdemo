@@ -1,0 +1,7 @@
+.git
+.DS_Store
+vite-app/node_modules
+vite-app/dist
+node_modules
+dist
+
