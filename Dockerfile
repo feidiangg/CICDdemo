@@ -6,6 +6,7 @@ COPY vite-app/package*.json ./
 RUN npm ci
 
 COPY vite-app/ ./
+ENV VITE_BASE_PATH=/CICDdemo/
 RUN npm run build
 
 FROM nginx:alpine
